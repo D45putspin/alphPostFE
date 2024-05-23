@@ -8,7 +8,7 @@ import Navbar from "@/components/shared/Navbar";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Service",
+    title: "Roadmap",
     description: "",
 };
 

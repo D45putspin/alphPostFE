@@ -9,7 +9,7 @@ import aboutOne from "@/../public/image/logo-bio.png"
 import TokenomicsBody from "@/components/pages/alo/Tokenomics";
 import logoImgBurn from "@/../public/image/logo-burnpage.png"
 export const metadata: Metadata = {
-  title: "About Us"
+  title: "Tokenomics"
 };
 
 const AboutUs = () => {
