@@ -7,7 +7,7 @@ import Snowfall from "@/components/shared/Snowfall";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home One ",
+  title: "Home ",
 
 };
 

@@ -12,6 +12,7 @@ import "../styles/main.scss";
 export const metadata: Metadata = {
   title: "ALPHpost",
   description: "ALPHpost landing page",
+
 };
 
 export default function RootLayout({
