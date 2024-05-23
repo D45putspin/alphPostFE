@@ -19,16 +19,16 @@ const ExperienceInNumber = () => {
         color="#007BFF"
       />
       <ExperienceCardItemAbout
-        counterNumber={60}
-        text="Circulating supply"
+        counterNumber={40}
+        text="Sell"
         counterElement=""
         rightElement="%"
 
       />
 
       <ExperienceCardItemAbout
-        counterNumber={7}
-        text="to rewards"
+        counterNumber={5}
+        text="to community rewards"
         counterElement=""
         rightElement="%"
       />
@@ -39,14 +39,14 @@ const ExperienceInNumber = () => {
         rightElement="%"
       />
       <ExperienceCardItemAbout
-        counterNumber={16}
+        counterNumber={20}
         text="Vested in treasury "
         counterElement=""
         rightElement="%"
       />
       <ExperienceCardItemAbout
-        counterNumber={12}
-        text="Staking rewards "
+        counterNumber={30}
+        text="Liquidty "
         counterElement=""
         rightElement="%"
       />
