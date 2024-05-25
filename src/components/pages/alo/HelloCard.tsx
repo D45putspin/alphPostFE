@@ -20,13 +20,14 @@ const HelloCard = () => {
         <br></br>
         $POST will power the ALPHpost ecosystem.
         <br></br>
-        <b>Join the Fun: </b>
+        <b>Join the Fun:</b>
 
         Use $POST to engage with the community and unlock new features.
         <br></br>
         <b>Create Value: </b>
-
         Each $POST you spend is burned, making the remaining tokens more valuable and scarce.
+        <br></br>
+
       </p>
       <Image
         src={image}

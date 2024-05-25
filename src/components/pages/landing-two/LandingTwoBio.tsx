@@ -48,7 +48,7 @@ const LandingTwoBio = () => {
       </div>
       <LinkPrimaryTwo
         linkText="Biography"
-        link="/tokenomics"
+        link="/allAbout"
         className="biography-style__link"
       />
     </motion.div>

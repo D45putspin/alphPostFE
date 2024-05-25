@@ -24,7 +24,7 @@ const BioCard = () => {
         />
       </div>
 
-      <LinkPrimary linkText="Tokenomics" link="/tokenomics" />
+      <LinkPrimary linkText="All About us" link="/allAbout" />
     </div>
   );
 };

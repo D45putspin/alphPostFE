@@ -5,7 +5,7 @@ const ButtonPrimary = () => {
   return (
     <div className="primary-button-container">
       <Link
-        href="/tokenomics"
+        href="/allAbout"
         className="button-primary text-center justify-content-center gap-2 d-inline-flex align-items-center py-3 px-6 px-5"
       >
         <span className="n0-color textM primary-button-text">
