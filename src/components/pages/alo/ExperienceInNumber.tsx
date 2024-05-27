@@ -10,12 +10,13 @@ const ExperienceInNumber = () => {
       viewport={{ once: true }}
       transition={{ duration: 0.9 }}
       className=" experience-in-number"
+      style={{ marginTop: "100px" }}
     >
       <ExperienceCardItemAbout
         counterNumber={25}
         text="Tokens"
         counterElement=""
-        rightElement=" Million "
+        rightElement=" Million"
         color="#007BFF"
       />
       <ExperienceCardItemAbout

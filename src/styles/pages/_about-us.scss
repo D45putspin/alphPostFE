@@ -171,6 +171,7 @@
       }
 
       @media (max-width: 768px) {
+        margin-top: 29%;
         grid-column-start: 1;
         grid-column-end: 13;
       }
@@ -229,9 +230,20 @@
     }
 
     .profile-card {
+
       grid-column-start: 6;
       grid-column-end: 13;
 
+      @media (max-width: 1400px) {
+        grid-column-start: 1;
+        grid-column-end: 9;
+      }
+
+      @media (max-width: 768px) {
+        margin-top: 29%;
+        grid-column-start: 1;
+        grid-column-end: 13;
+      }
     }
 
 
