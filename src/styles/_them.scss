@@ -1,15 +1,17 @@
 .theme-modal-button {
   position: fixed;
   right: 0px;
-  top: 50%;
+  top: calc(50vh - 50px);
+  /* Adjust 50px to half of the button's height */
   background-color: #24202f;
   border-radius: 10px 0 0 10px;
-  z-index: 4;
+  z-index: 1000;
 
   button {
     background: transparent;
     padding: 5px;
   }
+
   .setting-icon {
     background-color: transparent !important;
   }
