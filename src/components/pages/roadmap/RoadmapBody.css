@@ -1,0 +1,74 @@
+/* RoadmapBody.css */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    background: linear-gradient(180deg, #fff, #111);
+    border-radius: 3px;
+}
+
+.timeline-event {
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 30px;
+}
+
+.timeline-event::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #007bff, #007399);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-date {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.timeline-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .timeline {
+        padding-left: 20px;
+    }
+
+    .timeline-event {
+        padding-left: 20px;
+    }
+
+    .timeline-event::before {
+        left: -30px;
+    }
+
+    .timeline::before {
+        left: 10px;
+    }
+}
