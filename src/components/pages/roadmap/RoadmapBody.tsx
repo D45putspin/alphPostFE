@@ -22,8 +22,8 @@ const RoadmapBody = () => {
                     <div className="timeline-event-before"></div>
                     <div className="timeline-date">{event.date}</div>
                     <div className="timeline-content">
-                        <h3 className="timeline-content-h3">{event.title}</h3>
-                        <p className="timeline-content-p">{event.description}</p>
+                        <h3 className="timeline-content-h3" style={{ color: "black" }}>{event.title}</h3>
+                        <p className="timeline-content-p" style={{ color: "black" }}>{event.description}</p>
                     </div>
                 </div>
             ))}
