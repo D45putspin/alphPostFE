@@ -1,4 +1,6 @@
 "use client";
+
+import React from 'react';
 import {
   ArrowDown2,
   Blogger,
@@ -12,7 +14,20 @@ import { usePathname } from "next/navigation";
 import { Dispatch, SetStateAction, useState } from "react";
 import AnimateHeight from "react-animate-height";
 
-export const navbarData = [
+type NavbarItem = {
+  id: string;
+  menuTitle: string;
+  path: string;
+  disabled?: boolean;
+  menuItems?: {
+    id: string;
+    title: string;
+    menuItemPath: string;
+  }[];
+  icon?: React.ReactNode;
+};
+
+export const navbarData: NavbarItem[] = [
   {
     id: "homeOne",
     menuTitle: "Home",
@@ -29,6 +44,7 @@ export const navbarData = [
     menuTitle: "Contact",
     path: "/contact",
   },
+  // Add more items as needed
 ];
 
 type Props = {
