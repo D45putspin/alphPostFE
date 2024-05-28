@@ -10,7 +10,7 @@ import { useState, useEffect } from "react";
 
 
 
-const useIsMobile = () => {
+const UseIsMobile = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -31,7 +31,7 @@ const useIsMobile = () => {
 
 
 const page = () => {
-  const isMobile = useIsMobile();
+  const isMobile = UseIsMobile();
 
   return (
     <div className="position-relative overflow-hidden">
