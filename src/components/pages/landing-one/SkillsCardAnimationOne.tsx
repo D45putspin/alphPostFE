@@ -49,7 +49,14 @@ const SkillsCardAnimationOne = () => {
                   <span key={i} className="skills-card__slider-text">
                     {item}
                     {item === "ANS" && (
-                      <Image src={ANS} alt="ANS Logo" width={20} height={20} />
+                      <Image
+                        src={ANS}
+                        alt="ANS Logo"
+                        width={20}
+                        height={20}
+                        className="centered-image"
+                        style={{ marginTop: '-4px' }}
+                      />
                     )}
                   </span>
                 ))}
